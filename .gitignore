@@ -1,0 +1,9 @@
+.idea/
+target
+data/large/regexlib_results.txt
+data/large/snort_results.txt
+data/large/npm_results.txt
+data/small/prism_results.txt
+data/small/corpus_results.txt
+regexploit/
+rxxr2/
