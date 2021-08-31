@@ -58,7 +58,7 @@ The main function is in ./src/main/java/cn/ac/ios/Test.java
 You can change ```String filename``` in the main function and run this file.
 
 ### 3. The parameters of static detection & dynamic verification
-The default parameter is: 15 threads are used for static detection and 1 thread is used for dynamic verification. For a regular, the upper limit time of static detection is 60s. Other parameters are in ./src/main/java/cn/ac/ios/Bean/AttackBean.java.
+The default parameter is: 15 threads are used for static detection and 1 thread is used for dynamic verification. For a regular expression, the upper limit time of static detection is 60s. Other parameters are in ./src/main/java/cn/ac/ios/Bean/AttackBean.java.
 
 Static detection contains five patterns (i.e., NQ, EOD, EOA, POA, SLQ in our paper): By default, The five patterns are all detected. If you want to detect not all patterns, change the parameter ```options``` in the ```checkReDoS``` function.
 
