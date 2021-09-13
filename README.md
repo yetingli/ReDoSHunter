@@ -1,6 +1,19 @@
 # ReDoSHunter
 ReDoSHunter is a combined static and dynamic approach for regular expression DoS detection.
 
+
+------
+
+**LATEST NOTE (updated at 2021.09.13):**
+
+1. ReDoSHunter is an open-source project that serves for the research purpose. The vulnerabilities exposed by ReDoSHunter should EXPLICITLY acknowledge the use of ReDoSHunter.  
+
+2. Though ReDoSHunter is open sourced and allows commercial usage, recently we noticed an extensive usage of ReDoSHunter for profit. Therefore, we highlight that **any exposed and confirmed new CVEs need to be co-owned by the major author** (Yeting LI), and the **profit** from exposing new CVEs using ReDoSHunter should also half-preserved by ReDoSHunter authors. For further questions, please contact Yeting LI at [email](lyt@ios.ac.cn).
+
+
+------
+
+
 You can find more information in the paper [ReDoSHunter: A Combined Static and Dynamic Approach for Regular Expression DoS Detection](https://www.usenix.org/system/files/sec21-li-yeting.pdf).
 
 ```tex
