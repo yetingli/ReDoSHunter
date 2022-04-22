@@ -1,0 +1,6002 @@
+[
+ {
+  "id": 1,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 2,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 3,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 4,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 5,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 6,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 7,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 8,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 9,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 10,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 11,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 12,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 13,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 14,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 15,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 16,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 17,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 18,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 19,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 20,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 21,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 22,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 23,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 24,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 25,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 26,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 27,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 28,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 29,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 30,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 31,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 32,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 33,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 34,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 35,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 36,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 37,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 38,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 39,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 40,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 41,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 42,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 43,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 44,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 45,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 46,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 47,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 48,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 49,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 50,
+  "redos": true,
+  "type": "EXPONENT",
+  "patternType": "EOD_i"
+ },
+ {
+  "id": 51,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 52,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 53,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 54,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 55,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 56,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 57,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 58,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 59,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 60,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 61,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 62,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 63,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 64,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 65,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 66,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 67,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 68,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 69,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 70,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 71,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 72,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 73,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 74,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 75,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 76,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ_1"
+ },
+ {
+  "id": 77,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 78,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 79,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 80,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 81,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 82,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 83,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 84,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 85,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 86,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 87,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 88,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 89,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 90,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 91,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 92,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 93,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 94,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 95,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 96,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ_2"
+ },
+ {
+  "id": 97,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 98,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 99,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 100,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 101,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 102,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 103,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 104,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 105,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 106,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 107,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 108,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 109,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 110,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 111,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 112,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 113,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 114,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 115,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 116,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 117,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 118,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 119,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 120,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 121,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 122,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 123,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 124,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 125,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 126,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 127,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ_2"
+ },
+ {
+  "id": 128,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 129,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 130,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 131,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 132,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 133,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 134,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 135,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 136,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 137,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 138,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 139,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 140,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 141,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 142,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 143,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 144,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 145,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 146,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 147,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 148,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 149,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 150,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 151,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 152,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 153,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 154,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 155,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 156,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 157,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 158,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 159,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 160,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 161,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 162,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 163,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 164,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 165,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 166,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 167,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 168,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 169,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 170,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 171,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 172,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 173,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 174,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 175,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 176,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 177,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 178,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 179,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 180,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 181,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 182,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 183,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 184,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 185,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 186,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 187,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 188,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 189,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 190,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ_1"
+ },
+ {
+  "id": 191,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 192,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 193,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 194,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 195,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 196,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 197,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 198,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 199,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 200,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 201,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 202,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 203,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 204,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 205,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 206,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 207,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 208,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 209,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 210,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 211,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 212,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 213,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 214,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 215,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 216,
+  "redos": true,
+  "type": "EXPONENT",
+  "patternType": "NQ"
+ },
+ {
+  "id": 217,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 218,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 219,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 220,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 221,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 222,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 223,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 224,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 225,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 226,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 227,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 228,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 229,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 230,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 231,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 232,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 233,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 234,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 235,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 236,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 237,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 238,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 239,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 240,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 241,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 242,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 243,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 244,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 245,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 246,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 247,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 248,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 249,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 250,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 251,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 252,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 253,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 254,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 255,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 256,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 257,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 258,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 259,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 260,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 261,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 262,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 263,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 264,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 265,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 266,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 267,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 268,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 269,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 270,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 271,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 272,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 273,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 274,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 275,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 276,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ_1"
+ },
+ {
+  "id": 277,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 278,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 279,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 280,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 281,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 282,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 283,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 284,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 285,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 286,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 287,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 288,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 289,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 290,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 291,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 292,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 293,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 294,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 295,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 296,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 297,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 298,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 299,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 300,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 301,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 302,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 303,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 304,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 305,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 306,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 307,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 308,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 309,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 310,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 311,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 312,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 313,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 314,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 315,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 316,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 317,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 318,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 319,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 320,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 321,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 322,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 323,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 324,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 325,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 326,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 327,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 328,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 329,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 330,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 331,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 332,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 333,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 334,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 335,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 336,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 337,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 338,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 339,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ_2"
+ },
+ {
+  "id": 340,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 341,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 342,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 343,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 344,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 345,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 346,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 347,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 348,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 349,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ_2"
+ },
+ {
+  "id": 350,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 351,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 352,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 353,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 354,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 355,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 356,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 357,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 358,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 359,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 360,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 361,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 362,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 363,
+  "redos": true,
+  "type": "EXPONENT",
+  "patternType": "EOD_i"
+ },
+ {
+  "id": 364,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 365,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 366,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 367,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 368,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 369,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 370,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 371,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 372,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 373,
+  "redos": true,
+  "type": "EXPONENT",
+  "patternType": "EOA_i1"
+ },
+ {
+  "id": 374,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 375,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 376,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 377,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 378,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 379,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 380,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 381,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 382,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 383,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 384,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 385,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 386,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 387,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 388,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 389,
+  "redos": true,
+  "type": "EXPONENT",
+  "patternType": "EOD_i"
+ },
+ {
+  "id": 390,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 391,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 392,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 393,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 394,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 395,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 396,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 397,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 398,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 399,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 400,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ_2"
+ },
+ {
+  "id": 401,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 402,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 403,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 404,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 405,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 406,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 407,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 408,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 409,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 410,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 411,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 412,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 413,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 414,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 415,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 416,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 417,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 418,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 419,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 420,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 421,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 422,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 423,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 424,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 425,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 426,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 427,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 428,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 429,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 430,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 431,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 432,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 433,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 434,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 435,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 436,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 437,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 438,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 439,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 440,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 441,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 442,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 443,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 444,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 445,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 446,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 447,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 448,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 449,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 450,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 451,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 452,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 453,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 454,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 455,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 456,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 457,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 458,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 459,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 460,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 461,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 462,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 463,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 464,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 465,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 466,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 467,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 468,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 469,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 470,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 471,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 472,
+  "redos": true,
+  "type": "EXPONENT",
+  "patternType": "EOD_i"
+ },
+ {
+  "id": 473,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 474,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 475,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 476,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 477,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 478,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 479,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 480,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 481,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 482,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 483,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 484,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 485,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 486,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 487,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 488,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 489,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 490,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 491,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 492,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 493,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 494,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 495,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 496,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 497,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 498,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 499,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 500,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 501,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 502,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 503,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 504,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 505,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 506,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 507,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 508,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 509,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 510,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 511,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 512,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 513,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 514,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 515,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 516,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 517,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 518,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 519,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 520,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 521,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 522,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 523,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 524,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 525,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 526,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 527,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 528,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 529,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 530,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 531,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 532,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 533,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 534,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 535,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 536,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 537,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 538,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 539,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 540,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 541,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 542,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 543,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 544,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 545,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 546,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 547,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 548,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 549,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 550,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 551,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 552,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 553,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 554,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 555,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 556,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 557,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 558,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 559,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 560,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 561,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 562,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 563,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 564,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 565,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 566,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 567,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 568,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 569,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 570,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 571,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 572,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ_1"
+ },
+ {
+  "id": 573,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 574,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 575,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 576,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 577,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 578,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 579,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 580,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 581,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 582,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 583,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 584,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 585,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 586,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 587,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 588,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 589,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 590,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 591,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 592,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 593,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 594,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 595,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 596,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 597,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 598,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 599,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 600,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 601,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 602,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 603,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 604,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 605,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 606,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 607,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 608,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 609,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 610,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 611,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 612,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 613,
+  "redos": true,
+  "type": "EXPONENT",
+  "patternType": "NQ"
+ },
+ {
+  "id": 614,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 615,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 616,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 617,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 618,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 619,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 620,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 621,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 622,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 623,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 624,
+  "redos": true,
+  "type": "EXPONENT",
+  "patternType": "EOA_i1"
+ },
+ {
+  "id": 625,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 626,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 627,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 628,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 629,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 630,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 631,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 632,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 633,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 634,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 635,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 636,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 637,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 638,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 639,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 640,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 641,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 642,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 643,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 644,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 645,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 646,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 647,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 648,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 649,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 650,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 651,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 652,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 653,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 654,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 655,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 656,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 657,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 658,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 659,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 660,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 661,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 662,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 663,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 664,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 665,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 666,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 667,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 668,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 669,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 670,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 671,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 672,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 673,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 674,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 675,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 676,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 677,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 678,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 679,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 680,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 681,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 682,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 683,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 684,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 685,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 686,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 687,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 688,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 689,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 690,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 691,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 692,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 693,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 694,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 695,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 696,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 697,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 698,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 699,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 700,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 701,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 702,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 703,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 704,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 705,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 706,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 707,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 708,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 709,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 710,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 711,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 712,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 713,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 714,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 715,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 716,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 717,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 718,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 719,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 720,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 721,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 722,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 723,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 724,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 725,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 726,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 727,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 728,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 729,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 730,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 731,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 732,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 733,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 734,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 735,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 736,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 737,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 738,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 739,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 740,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 741,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 742,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 743,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 744,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 745,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 746,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 747,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 748,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 749,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 750,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 751,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 752,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 753,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 754,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 755,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ_1"
+ },
+ {
+  "id": 756,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 757,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 758,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 759,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 760,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 761,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 762,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 763,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 764,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 765,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 766,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 767,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 768,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 769,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 770,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 771,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 772,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 773,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 774,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 775,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 776,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 777,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 778,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 779,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 780,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 781,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 782,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 783,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 784,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 785,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 786,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 787,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 788,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 789,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 790,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 791,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 792,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 793,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 794,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 795,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 796,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 797,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 798,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 799,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ_2"
+ },
+ {
+  "id": 800,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 801,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 802,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 803,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 804,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 805,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 806,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 807,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 808,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 809,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 810,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 811,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 812,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 813,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 814,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 815,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 816,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 817,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 818,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 819,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 820,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 821,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 822,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 823,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 824,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 825,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 826,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 827,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 828,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 829,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 830,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 831,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 832,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 833,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 834,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 835,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 836,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 837,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 838,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 839,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 840,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 841,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 842,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 843,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 844,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 845,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 846,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 847,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 848,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 849,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 850,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 851,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 852,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 853,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 854,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 855,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 856,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 857,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 858,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 859,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 860,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 861,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 862,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 863,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 864,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 865,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 866,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 867,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 868,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 869,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 870,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 871,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 872,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 873,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 874,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 875,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 876,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 877,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 878,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 879,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 880,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 881,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 882,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 883,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 884,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 885,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 886,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 887,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 888,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 889,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 890,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 891,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 892,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 893,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 894,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 895,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 896,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 897,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 898,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 899,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 900,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 901,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 902,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 903,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 904,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 905,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 906,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 907,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 908,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 909,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 910,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 911,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 912,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 913,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 914,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 915,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 916,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 917,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "POA"
+ },
+ {
+  "id": 918,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 919,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 920,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 921,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 922,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 923,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 924,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 925,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 926,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 927,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 928,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 929,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 930,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 931,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 932,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 933,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 934,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 935,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 936,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 937,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 938,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 939,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 940,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 941,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 942,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 943,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 944,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 945,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 946,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 947,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 948,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 949,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 950,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 951,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 952,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 953,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 954,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 955,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 956,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 957,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 958,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 959,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 960,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 961,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 962,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 963,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 964,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 965,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 966,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 967,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 968,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 969,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 970,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 971,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 972,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 973,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 974,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 975,
+  "redos": true,
+  "type": "EXPONENT",
+  "patternType": "NQ"
+ },
+ {
+  "id": 976,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 977,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 978,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 979,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 980,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 981,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 982,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 983,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 984,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 985,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 986,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 987,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 988,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 989,
+  "redos": true,
+  "type": "POLYNOMIAL",
+  "patternType": "SLQ2"
+ },
+ {
+  "id": 990,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 991,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 992,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 993,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 994,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 995,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 996,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 997,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 998,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 999,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ },
+ {
+  "id": 1000,
+  "redos": false,
+  "type": "",
+  "patternType": ""
+ }
+]

@@ -1,14 +1,15 @@
 package cn.ac.ios;
 
+import cn.ac.ios.Bean.*;
 import cn.ac.ios.Patterns.SLQ.PatternSLQUtils;
 import cn.ac.ios.TreeNode.TreeNode;
-import cn.ac.ios.Bean.AttackBean;
-import cn.ac.ios.Bean.ReDoSBean;
-import cn.ac.ios.Bean.RegexBean;
 import cn.ac.ios.Patterns.EOA.PatternEOAUtils;
 import cn.ac.ios.Patterns.EOD.PatternEODUtils;
 import cn.ac.ios.Patterns.NQ.PatternNQUtils;
 import cn.ac.ios.Patterns.POA.PatternPOAUtils;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
 import org.apache.commons.io.FileUtils;
 
 import java.io.BufferedReader;
@@ -16,6 +17,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -31,10 +33,12 @@ public class ReDoSMain {
 
     public static String PYTHON = "python3";
     public static String JS = "node";
+    public static String PERL = "perl";
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        String regex = "^(a+)+$";
-        ReDoSBean bean = validateReDoS(checkReDoS(regex, 1, "11111", "java"), "s", "java");
+        String regex = "\\u003cli(.*?)\\u003e(.*?)\\u003c\\\\/li\\u003e";
+        regex = "^(a+)+$";
+        ReDoSBean bean = validateReDoS(checkReDoS(regex, 1, "11111", "perl"), "s", "js");
         System.out.println(bean.getRegex());
         for (int i = 0; i < bean.getAttackBeanList().size(); i++) {
             if (bean.getAttackBeanList().get(i).isAttackSuccess()) {
@@ -123,6 +127,10 @@ public class ReDoSMain {
             return getPython(bean, model);
         } else if ("js".equals(language)) {
             return getJS(bean, model);
+        } else if ("perl".endsWith(language)) {
+            return getPerl(bean, model);
+        } else if ("php".endsWith(language)) {
+            return getJava(bean, model);
         } else {
             return getJava(bean, model);
         }
@@ -205,7 +213,7 @@ public class ReDoSMain {
      */
     public static ReDoSBean getPython(ReDoSBean bean, String model) {
         bean.setRegex(divideRegexByFlags(bean.getRegex()).getRegex());
-        System.out.println("waring:Your environment must support the command \"python3\" and sot support for Windows");
+        System.out.println("waring:Your environment must support the command \"python3\" and not support for Windows");
         List<String> list = new ArrayList<>();
         list.add(bean.getRegex());
         list.add(model);
@@ -238,6 +246,7 @@ public class ReDoSMain {
                 }
                 bean.getAttackBeanList().get(i).setRepeatTimes(Integer.parseInt(s[1]));
                 bean.getAttackBeanList().get(i).setAttackTime(Integer.parseInt(s[2]));
+                bean.getAttackBeanList().get(i).confirmType();
             }
             return bean;
         } catch (Exception e) {
@@ -250,7 +259,7 @@ public class ReDoSMain {
     }
 
     /**
-     * 使用python语言验证
+     * 使用js语言验证
      *
      * @param bean
      * @param model
@@ -293,6 +302,8 @@ public class ReDoSMain {
                 }
                 bean.getAttackBeanList().get(i).setRepeatTimes(Integer.parseInt(s[1]));
                 bean.getAttackBeanList().get(i).setAttackTime(Integer.parseInt(s[2]));
+                bean.getAttackBeanList().get(i).confirmType();
+
             }
             return bean;
         } catch (Exception e) {
@@ -300,6 +311,73 @@ public class ReDoSMain {
         } finally {
             FileUtils.deleteQuietly(new File("js/" + name));
             FileUtils.deleteQuietly(new File("js/" + name.replace(".txt", "_result.txt")));
+        }
+        return bean;
+    }
+
+    /**
+     * 使用perl语言验证
+     *
+     * @param model
+     * @return
+     */
+    public static ReDoSBean getPerl(ReDoSBean bean, String model) {
+        System.out.println("waring:Your environment must support the command \"perl\"");
+        String name = "perl/" + System.currentTimeMillis() + ".perl.cache.json";
+        String input = name;
+        String output = name.replace(".json", ".result.json");
+        ArrayList<Output> outputs = new ArrayList<>();
+        ArrayList<Attack> attackArrayList = new ArrayList<>();
+        for (AttackBean item : bean.getAttackBeanList()) {
+            Attack attack = new Attack(item.getPrefix(), item.getInfix(), item.getSuffix(), item.getType(), item.getPatternType());
+            attackArrayList.add(attack);
+        }
+        outputs.add(new Output(bean.getRegexID(), bean.getRegex(), attackArrayList));
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        String json = gson.toJson(outputs);
+        try {
+            FileUtils.write(new File(input), json, "utf-8");
+            Process proc;
+            String[] args = new String[]{PYTHON, "perl/main.py", input, output, model};
+            proc = Runtime.getRuntime().exec(args);// 执行py文件
+            //用输入输出流来截取结果
+            BufferedReader in = new BufferedReader(new InputStreamReader(proc.getInputStream()));
+            String line = null;
+            while ((line = in.readLine()) != null) {
+                System.out.println(line);
+            }
+            in.close();
+            proc.waitFor();
+
+            ArrayList<Output> dataBeanArrayList = new Gson().fromJson(FileUtils.readFileToString(new File(output), "utf-8"), new TypeToken<ArrayList<Output>>() {
+            }.getType());
+
+            Output resultBean = dataBeanArrayList.get(0);
+            for (int i = 0; i < bean.getAttackBeanList().size(); i++) {
+                Attack attack = resultBean.attackArrayList.get(i);
+                String redos = attack.redos.toLowerCase();
+                if (redos.equals("true")) {
+                    bean.setReDoS(true);
+                    bean.getAttackBeanList().get(i).setPatternType(attack.patternType);
+                    bean.getAttackBeanList().get(i).setAttackSuccess(true);
+                    if (attack.type == AttackType.EXPONENT) {
+                        bean.getAttackBeanList().get(i).setRepeatTimes(1000);
+                    } else if (attack.type == AttackType.POLYNOMIAL) {
+                        bean.getAttackBeanList().get(i).setRepeatTimes(100000);
+                    }
+                    bean.getAttackBeanList().get(i).confirmType();
+                    bean.getAttackBeanList().get(i).setAttackTime(1000);
+                } else {
+                    bean.getAttackBeanList().get(i).setAttackSuccess(false);
+                }
+                bean.getAttackBeanList().get(i).msg = attack.redos;
+            }
+            return bean;
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            FileUtils.deleteQuietly(new File(input));
+            FileUtils.deleteQuietly(new File(output));
         }
         return bean;
     }
