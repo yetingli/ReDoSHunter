@@ -94,8 +94,10 @@ public class AttackBean implements Serializable {
     private long attackTime = -1;
     private int repeatTimes;
     private int circulationTimes;//栈溢出时防止死循环
-    private AttackType type;
+    public AttackType type;
     private PatternType patternType;
+    public String msg;
+
 
     public AttackBean() {
         attackSuccess = false;

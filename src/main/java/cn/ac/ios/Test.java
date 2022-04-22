@@ -1,10 +1,14 @@
 package cn.ac.ios;
 
+import cn.ac.ios.Bean.Attack;
 import cn.ac.ios.Bean.AttackBean;
+import cn.ac.ios.Bean.Output;
 import cn.ac.ios.Bean.ReDoSBean;
 import cn.ac.ios.Utils.multithread.ITask;
 import cn.ac.ios.Utils.multithread.MultiBaseBean;
 import cn.ac.ios.Utils.multithread.MultiThreadUtils;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import org.apache.commons.cli.*;
 import org.apache.commons.io.FileUtils;
 
@@ -146,6 +150,50 @@ public class Test {
         }
         System.exit(0); // 新增
     }
+
+    public static void onlyCheck(String sourceFile, String outfileName, String model, String language, String patternModel, int funcType, int checkThreadCount, int validateThreadCount, int timeout) {
+        List<String> tasksData = readFile(sourceFile);
+        MultiThreadUtils<String, ReDoSBean> threadUtils = MultiThreadUtils.newInstance(checkThreadCount, timeout);
+        MultiBaseBean<List<ReDoSBean>> multiBaseBean;
+        if (tasksData == null || tasksData.isEmpty()) {
+            multiBaseBean = new MultiBaseBean<>(null);
+        } else {
+            multiBaseBean = threadUtils.execute(tasksData, null, new ITask<String, ReDoSBean>() {
+                @Override
+                public ReDoSBean execute(String regex, Map<String, Integer> params) {
+                    return (ReDoSMain.checkReDoS(regex, params.get("id"), patternModel, language));
+                }
+            });
+        }
+        List<ReDoSBean> list = multiBaseBean.getData();
+
+        try {
+            Timestamp timeStamp = new Timestamp(System.currentTimeMillis());
+            DateFormat sdf = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
+            String tsStr = sdf.format(timeStamp);
+            tsStr = model + "_" + language + "_" + patternModel + "_" + funcType + "_" + tsStr;
+            ArrayList<Output> outputs = new ArrayList<>();
+            for (int i = 0; i < list.size(); i++) {
+                ReDoSBean reDoSBean = list.get(i);
+                ArrayList<Attack> attackArrayList = new ArrayList<>();
+                int k = 0;
+                for (AttackBean bean : reDoSBean.getAttackBeanList()) {
+                    Attack attack = new Attack(bean.getPrefix(), bean.getInfix(), bean.getSuffix(), bean.getType(), bean.getPatternType());
+                    attackArrayList.add(attack);
+                    k++;
+                }
+                outputs.add(new Output(reDoSBean.getRegexID(), reDoSBean.getRegex(), attackArrayList));
+            }
+            Gson gson = new GsonBuilder().setPrettyPrinting().create();
+            String json = gson.toJson(outputs);
+//            String json= JSON.toJSONString(outputs);
+            FileUtils.write(new File("C:\\Users\\pengqc\\Desktop\\pqc\\csharp_only_check\\" + outfileName.replace(".txt", "") + "_only_check_" + tsStr + ".txt"), json, "utf-8");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+
 
 
     public static void pkg(String[] args) throws ParseException {
