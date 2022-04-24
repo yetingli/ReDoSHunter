@@ -33,12 +33,14 @@ public class ReDoSMain {
 
     public static String PYTHON = "python3";
     public static String JS = "node";
-    public static String PERL = "perl";
 
     public static void main(String[] args) throws IOException, InterruptedException {
         String regex = "\\u003cli(.*?)\\u003e(.*?)\\u003c\\\\/li\\u003e";
-        regex = "^(a+)+$";
-        ReDoSBean bean = validateReDoS(checkReDoS(regex, 1, "11111", "perl"), "s", "js");
+        regex = "^(\\w+)\\w+$";
+//        regex = "^Set-Cookie:\\\\s*([^=]+)=([^;]+)";
+        regex = "^Set-Cookie:(\\w+)a(\\w+)$";
+        regex = "e.*x.*p.*r.*e.*s.*s.*i.*o.*n";
+        ReDoSBean bean = validateReDoS(checkReDoS(regex, 1, "11111", "php"), "s", "php");
         System.out.println(bean.getRegex());
         for (int i = 0; i < bean.getAttackBeanList().size(); i++) {
             if (bean.getAttackBeanList().get(i).isAttackSuccess()) {
@@ -130,7 +132,7 @@ public class ReDoSMain {
         } else if ("perl".endsWith(language)) {
             return getPerl(bean, model);
         } else if ("php".endsWith(language)) {
-            return getJava(bean, model);
+            return getPHP(bean, model);
         } else {
             return getJava(bean, model);
         }
@@ -252,8 +254,8 @@ public class ReDoSMain {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            FileUtils.deleteQuietly(new File("python/" + name));
-            FileUtils.deleteQuietly(new File("python/" + name.replace(".txt", "_result.txt")));
+//            FileUtils.deleteQuietly(new File("python/" + name));
+//            FileUtils.deleteQuietly(new File("python/" + name.replace(".txt", "_result.txt")));
         }
         return bean;
     }
@@ -339,6 +341,73 @@ public class ReDoSMain {
             FileUtils.write(new File(input), json, "utf-8");
             Process proc;
             String[] args = new String[]{PYTHON, "perl/main.py", input, output, model};
+            proc = Runtime.getRuntime().exec(args);// 执行py文件
+            //用输入输出流来截取结果
+            BufferedReader in = new BufferedReader(new InputStreamReader(proc.getInputStream()));
+            String line = null;
+            while ((line = in.readLine()) != null) {
+                System.out.println(line);
+            }
+            in.close();
+            proc.waitFor();
+
+            ArrayList<Output> dataBeanArrayList = new Gson().fromJson(FileUtils.readFileToString(new File(output), "utf-8"), new TypeToken<ArrayList<Output>>() {
+            }.getType());
+
+            Output resultBean = dataBeanArrayList.get(0);
+            for (int i = 0; i < bean.getAttackBeanList().size(); i++) {
+                Attack attack = resultBean.attackArrayList.get(i);
+                String redos = attack.redos.toLowerCase();
+                if (redos.equals("true")) {
+                    bean.setReDoS(true);
+                    bean.getAttackBeanList().get(i).setPatternType(attack.patternType);
+                    bean.getAttackBeanList().get(i).setAttackSuccess(true);
+                    if (attack.type == AttackType.EXPONENT) {
+                        bean.getAttackBeanList().get(i).setRepeatTimes(1000);
+                    } else if (attack.type == AttackType.POLYNOMIAL) {
+                        bean.getAttackBeanList().get(i).setRepeatTimes(100000);
+                    }
+                    bean.getAttackBeanList().get(i).confirmType();
+                    bean.getAttackBeanList().get(i).setAttackTime(1000);
+                } else {
+                    bean.getAttackBeanList().get(i).setAttackSuccess(false);
+                }
+                bean.getAttackBeanList().get(i).msg = attack.redos;
+            }
+            return bean;
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+//            FileUtils.deleteQuietly(new File(input));
+//            FileUtils.deleteQuietly(new File(output));
+        }
+        return bean;
+    }
+
+    /**
+     * 使用php语言验证
+     *
+     * @param model
+     * @return
+     */
+    public static ReDoSBean getPHP(ReDoSBean bean, String model) {
+        System.out.println("waring:Your environment must support the command \"php\"");
+        String name = "php/" + System.currentTimeMillis() + ".php.cache.json";
+        String input = name;
+        String output = name.replace(".json", ".result.json");
+        ArrayList<Output> outputs = new ArrayList<>();
+        ArrayList<Attack> attackArrayList = new ArrayList<>();
+        for (AttackBean item : bean.getAttackBeanList()) {
+            Attack attack = new Attack(item.getPrefix(), item.getInfix(), item.getSuffix(), item.getType(), item.getPatternType());
+            attackArrayList.add(attack);
+        }
+        outputs.add(new Output(bean.getRegexID(), bean.getRegex(), attackArrayList));
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        String json = gson.toJson(outputs);
+        try {
+            FileUtils.write(new File(input), json, "utf-8");
+            Process proc;
+            String[] args = new String[]{PYTHON, "php/main.py", input, output, model};
             proc = Runtime.getRuntime().exec(args);// 执行py文件
             //用输入输出流来截取结果
             BufferedReader in = new BufferedReader(new InputStreamReader(proc.getInputStream()));
