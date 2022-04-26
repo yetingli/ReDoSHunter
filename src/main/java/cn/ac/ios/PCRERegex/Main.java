@@ -1,4 +1,4 @@
-package cn.ac.ios.PCRE;
+package cn.ac.ios.PCRERegex;
 
 /**
  * A small demo class that demonstrates how to use the
@@ -7,7 +7,7 @@ package cn.ac.ios.PCRE;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        String regex = "&&";
+        String regex = "[abc]";
         System.out.println(new PCREBuilder.Tree(regex).toStringASCII());
     }
 }

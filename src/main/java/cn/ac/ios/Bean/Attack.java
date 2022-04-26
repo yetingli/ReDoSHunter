@@ -7,7 +7,7 @@ public class Attack {
     public String suffix;
     public AttackType type;
     public PatternType patternType;
-    public String redos = "";
+    public String reDoS = "";
 
     public Attack(String prefix, String infix, String suffix, AttackType type, PatternType patternType) {
         this.prefix = prefix;

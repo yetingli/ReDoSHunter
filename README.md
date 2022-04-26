@@ -80,7 +80,7 @@ S mode (default): for each regular expression, if one attack string attack is su
 M mode: verify all attack strings.
 The change method is to change the parameter ```model``` in the ```validateReDoS``` function.
 
-Both static detection and dynamic verification support regular expressions under different languages. Java (default), python, JavaScript and PCRE. 
+Both static detection and dynamic verification support regular expressions under different languages. Java (default), Python, JavaScript, PCRE, C#, Perl, and PHP. 
 If you want to change language, please change the ```language``` parameter in the ```checkReDoS``` and ```validateReDoS``` functions.
 
 

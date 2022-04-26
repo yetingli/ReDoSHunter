@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
  */
 public class UnicodeBackslashU {
     // 单个字符的正则表达式
-    private static final String singlePattern = "[0-9|a-f|A-F]";
+    private static final String singlePattern = "[0-9a-fA-F]";
     // 4个字符的正则表达式
     private static final String pattern = singlePattern + singlePattern + singlePattern + singlePattern;
     private static final String pattern_2 = "\\{" + singlePattern + singlePattern + singlePattern + singlePattern + "\\}";
