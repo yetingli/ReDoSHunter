@@ -6,4 +6,4 @@
 
 4：在执行main.py脚本前，需要现在check_data文件夹中放入由test.onlyCheck()函数产生txt文件；
 
-# warning:执行脚本前，注意替换里面的文件夹路径。
+#### warning:执行脚本前，注意替换里面的文件夹路径。

@@ -6,4 +6,4 @@
 
 4：在执行main.py脚本前，需要现在check_data文件夹中放入由test.onlyCheck()函数产生txt文件；
 
-# warning:执行脚本前，注意替换里面的文件夹路径。包括check_data、result以及存放缓存文件的/Users/pqc/Desktop/redos/temp/目录。
+#### warning:执行脚本前，注意替换里面的文件夹路径。包括check_data、result以及存放缓存文件的/Users/pqc/Desktop/redos/temp/目录。
