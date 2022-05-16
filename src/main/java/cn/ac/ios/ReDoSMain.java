@@ -356,7 +356,7 @@ public class ReDoSMain {
             Output resultBean = dataBeanArrayList.get(0);
             for (int i = 0; i < bean.getAttackBeanList().size(); i++) {
                 Attack attack = resultBean.attackArrayList.get(i);
-                String redos = attack.reDos.toLowerCase();
+                String redos = attack.reDoS.toLowerCase();
                 if (redos.equals("true")) {
                     bean.setReDoS(true);
                     bean.getAttackBeanList().get(i).setPatternType(attack.patternType);
@@ -371,7 +371,7 @@ public class ReDoSMain {
                 } else {
                     bean.getAttackBeanList().get(i).setAttackSuccess(false);
                 }
-                bean.getAttackBeanList().get(i).msg = attack.reDos;
+                bean.getAttackBeanList().get(i).msg = attack.reDoS;
             }
             return bean;
         } catch (Exception e) {
@@ -423,7 +423,7 @@ public class ReDoSMain {
             Output resultBean = dataBeanArrayList.get(0);
             for (int i = 0; i < bean.getAttackBeanList().size(); i++) {
                 Attack attack = resultBean.attackArrayList.get(i);
-                String redos = attack.reDos.toLowerCase();
+                String redos = attack.reDoS.toLowerCase();
                 if (redos.equals("true")) {
                     bean.setReDoS(true);
                     bean.getAttackBeanList().get(i).setPatternType(attack.patternType);
@@ -438,7 +438,7 @@ public class ReDoSMain {
                 } else {
                     bean.getAttackBeanList().get(i).setAttackSuccess(false);
                 }
-                bean.getAttackBeanList().get(i).msg = attack.reDos;
+                bean.getAttackBeanList().get(i).msg = attack.reDoS;
             }
             return bean;
         } catch (Exception e) {
