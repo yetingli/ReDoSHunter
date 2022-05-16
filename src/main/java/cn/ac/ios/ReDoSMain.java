@@ -17,7 +17,6 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -357,7 +356,7 @@ public class ReDoSMain {
             Output resultBean = dataBeanArrayList.get(0);
             for (int i = 0; i < bean.getAttackBeanList().size(); i++) {
                 Attack attack = resultBean.attackArrayList.get(i);
-                String redos = attack.redos.toLowerCase();
+                String redos = attack.reDos.toLowerCase();
                 if (redos.equals("true")) {
                     bean.setReDoS(true);
                     bean.getAttackBeanList().get(i).setPatternType(attack.patternType);
@@ -372,7 +371,7 @@ public class ReDoSMain {
                 } else {
                     bean.getAttackBeanList().get(i).setAttackSuccess(false);
                 }
-                bean.getAttackBeanList().get(i).msg = attack.redos;
+                bean.getAttackBeanList().get(i).msg = attack.reDos;
             }
             return bean;
         } catch (Exception e) {
@@ -424,7 +423,7 @@ public class ReDoSMain {
             Output resultBean = dataBeanArrayList.get(0);
             for (int i = 0; i < bean.getAttackBeanList().size(); i++) {
                 Attack attack = resultBean.attackArrayList.get(i);
-                String redos = attack.redos.toLowerCase();
+                String redos = attack.reDos.toLowerCase();
                 if (redos.equals("true")) {
                     bean.setReDoS(true);
                     bean.getAttackBeanList().get(i).setPatternType(attack.patternType);
@@ -439,7 +438,7 @@ public class ReDoSMain {
                 } else {
                     bean.getAttackBeanList().get(i).setAttackSuccess(false);
                 }
-                bean.getAttackBeanList().get(i).msg = attack.redos;
+                bean.getAttackBeanList().get(i).msg = attack.reDos;
             }
             return bean;
         } catch (Exception e) {
