@@ -23,7 +23,7 @@ while (i < lines.length - 1) {
 }
 
 for (j = 0, len = attackBeans.length; j < len; j++) {
-    if (attackBeans[j].type === "EXPONENT") {
+    if (attackBeans[j].type.toString().trim() === "EXPONENT") {
         let times = 1000;
         let duration = get_duration(attackBeans[j], times, 150);
         if (duration >= 150) {
@@ -32,7 +32,7 @@ for (j = 0, len = attackBeans.length; j < len; j++) {
             attackBeans[j].duration = duration;
             break;
         }
-    } else if (attackBeans[j].type === "POLYNOMIAL") {
+    } else if (attackBeans[j].type.toString().trim() === "POLYNOMIAL") {
         let times = 100000;
         let duration = get_duration(attackBeans[j], times, 1000);
         if (duration >= 1000) {
@@ -40,7 +40,7 @@ for (j = 0, len = attackBeans.length; j < len; j++) {
             attackBeans[j].times = times;
             attackBeans[j].duration = duration;
         }
-    } else if (attackBeans[j].type === "EXPONENT_OR_POLYNOMIAL") {
+    } else if (attackBeans[j].type.toString().trim() === "EXPONENT_OR_POLYNOMIAL") {
         let times = 1000;
         let duration = get_duration(attackBeans[j], times, 150);
         if (duration >= 150) {
@@ -58,7 +58,7 @@ for (j = 0, len = attackBeans.length; j < len; j++) {
             }
         }
     }
-    if (model === "s" && attackBeans[j].is_attack_success) {
+    if (model.toString().trim() === "s" && attackBeans[j].is_attack_success) {
         break
     }
 }
