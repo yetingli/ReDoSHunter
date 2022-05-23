@@ -1,5 +1,5 @@
 // Generated from C:/Users/liyt/Desktop/RHunter/src/main/java/cn/ac/ios/PCRE\JavaScriptRegex.g4 by ANTLR 4.9.1
-package cn.ac.ios.PCRE;
+package cn.ac.ios.PCRERegex;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
 /**

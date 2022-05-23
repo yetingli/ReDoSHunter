@@ -1,8 +1,8 @@
 package cn.ac.ios.TreeNode;
 
 import cn.ac.ios.Bean.GroupContent;
-import cn.ac.ios.PCRE.PCREBuilder;
-import cn.ac.ios.PCRE.PCREParser;
+import cn.ac.ios.PCRERegex.PCREBuilder;
+import cn.ac.ios.PCRERegex.PCREParser;
 import cn.ac.ios.Utils.BracketUtils;
 import cn.ac.ios.Utils.Constant;
 import org.antlr.v4.runtime.tree.ParseTree;
@@ -4882,10 +4882,11 @@ public class TreeNode implements Iterable<TreeNode>, Serializable {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        String regex = "[\\000-\\377]";
+        String regex = "a*b+";
         TreeNode treeNode = createReDoSTree(regex);
         printTree(treeNode);
-        treeNode.rewriteUnicodeNumberInBracketNode();
+        treeNode.calculateFiveAttributesNullableAndFirstAndLastAndFlexibleAndFollowLast();
+        System.out.println(treeNode.getFollowLast());
 
 
 //        String regex = "[[\\d]]";

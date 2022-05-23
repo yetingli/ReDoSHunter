@@ -5,4 +5,4 @@
 
 3：在执行脚本前，需要现在check_data文件夹中放入由test.onlyCheck()函数产生txt文件；
 
-# waring: 需要在visual studio上创建单的的项目并执行Program.cs脚本，注意替换脚本中的文件夹。
+#### waring: 需要在visual studio上创建单的的项目并执行Program.cs脚本，注意替换脚本中的文件夹。
