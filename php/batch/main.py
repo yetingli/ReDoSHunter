@@ -3,8 +3,6 @@ import os
 import subprocess
 
 
-# 待批量的数据，由test.onlyCheck()函数 产生（只执行检测步骤，并将信息记录在txt文件中）
-path = "check_data"
 
 
 def get_duration(out, i, attack):
@@ -47,7 +45,8 @@ def run(out, i, times):
 
 
 if __name__ == '__main__':
-
+    # 待批量的数据，由test.onlyCheck()函数 产生（只执行检测步骤，并将信息记录在txt文件中）
+    path = "check_data"
     for file in os.listdir(path):
         index = (int(file.split("_")[0]) - 1) * 1000
         data = json.loads(open(path + "/" + file, encoding="utf-8").read())

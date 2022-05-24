@@ -3,9 +3,11 @@ import os
 import subprocess
 import sys
 
-file_name = sys.argv[1]
-output_file_name = sys.argv[2]
-model = sys.argv[3]
+
+if __name__ == '__main__':
+    file_name = sys.argv[1]
+    output_file_name = sys.argv[2]
+    model = sys.argv[3]
 
 
 def get_duration(out, i, attack):

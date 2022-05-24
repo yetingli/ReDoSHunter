@@ -36,10 +36,10 @@ public class ReDoSMain {
     public static void main(String[] args) throws IOException, InterruptedException {
         String regex = "\\u003cli(.*?)\\u003e(.*?)\\u003c\\\\/li\\u003e";
         regex = "^(\\w+)\\w+$";
-//        regex = "^Set-Cookie:\\\\s*([^=]+)=([^;]+)";
-        regex = "^Set-Cookie:(\\w+)a(\\w+)$";
-        regex = "e.*x.*p.*r.*e.*s.*s.*i.*o.*n";
-        ReDoSBean bean = validateReDoS(checkReDoS(regex, 1, "11111", "php"), "s", "php");
+        regex = "^Set-Cookie:\\\\s*([^=]+)=([^;]+)";
+//        regex = "^Set-Cookie:(\\w+)a(\\w+)$";
+//        regex = "a+a+b";
+        ReDoSBean bean = validateReDoS(checkReDoS(regex, 1, "11111", "perl"), "s", "perl");
         System.out.println(bean.getRegex());
         for (int i = 0; i < bean.getAttackBeanList().size(); i++) {
             if (bean.getAttackBeanList().get(i).isAttackSuccess()) {
@@ -253,8 +253,8 @@ public class ReDoSMain {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-//            FileUtils.deleteQuietly(new File("python/" + name));
-//            FileUtils.deleteQuietly(new File("python/" + name.replace(".txt", "_result.txt")));
+            FileUtils.deleteQuietly(new File("python/" + name));
+            FileUtils.deleteQuietly(new File("python/" + name.replace(".txt", "_result.txt")));
         }
         return bean;
     }
@@ -377,8 +377,8 @@ public class ReDoSMain {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-//            FileUtils.deleteQuietly(new File(input));
-//            FileUtils.deleteQuietly(new File(output));
+            FileUtils.deleteQuietly(new File(input));
+            FileUtils.deleteQuietly(new File(output));
         }
         return bean;
     }

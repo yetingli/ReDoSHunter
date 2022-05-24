@@ -102,9 +102,9 @@ def fun(file="1_only_check_s_python_11111_0_2021_12_07_13_58_03.txt"):
     with open("result/" + file.replace(".txt", ".result.json"), 'w') as f:
         json.dump(l, f, indent=" ")
 
-
-path = "python_only_check"
-files = os.listdir(path)
-for file in files:
-    if file.endswith(".txt"):
-        fun(file)
+if __name__ == '__main__':
+    path = "check_data"
+    files = os.listdir(path)
+    for file in files:
+        if file.endswith(".txt"):
+            fun(file)
