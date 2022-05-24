@@ -2,7 +2,6 @@ import json
 import os
 import subprocess
 
-path = "js_only_check"
 
 
 def get_duration(out, i, attack):
@@ -41,7 +40,7 @@ def run(out, i, times):
 
 if __name__ == '__main__':
     # run("/Users/pqc/Desktop/redos/temp/-996.json", 0, 1000)
-
+    path = "check_data"
     for file in os.listdir(path):
         index = (int(file.split("_")[0]) - 1) * 1000
         data = json.loads(open(path + "/" + file, encoding="utf-8").read())
