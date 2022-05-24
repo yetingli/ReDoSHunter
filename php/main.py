@@ -4,11 +4,6 @@ import subprocess
 import sys
 
 
-if __name__ == '__main__':
-    file_name = sys.argv[1]
-    output_file_name = sys.argv[2]
-    model = sys.argv[3]
-
 
 def get_duration(out, i, attack):
     type = attack["type"]
@@ -51,6 +46,9 @@ def run(out, i, times):
 
 
 if __name__ == '__main__':
+    file_name = sys.argv[1]
+    output_file_name = sys.argv[2]
+    model = sys.argv[3]
     data = json.loads(open(file_name, encoding="utf-8").read())
     l = list()
     for item in data:
