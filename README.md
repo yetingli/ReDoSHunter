@@ -70,6 +70,9 @@ The main function is in ./src/main/java/cn/ac/ios/Test.java
 
 You can change ```String filename``` in the main function and run this file.
 
+Note: this method is limited to using Java. For other languages, follow readme under the corresponding language folder (e.g., ``python/README.md``)
+
+
 ### 3. The parameters of static detection & dynamic verification
 The default parameter is: 15 threads are used for static detection and 1 thread is used for dynamic verification. For a regular expression, the upper limit time of static detection is 60s. Other parameters are in ./src/main/java/cn/ac/ios/Bean/AttackBean.java.
 
