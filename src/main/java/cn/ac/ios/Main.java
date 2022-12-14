@@ -64,7 +64,7 @@ public class Main {
 
         System.out.println("please input regex ");
         Scanner scanner = new Scanner(System.in);
-        String regex = scanner.next();
+        String regex = scanner.nextLine();
         System.out.println("input:" + regex);
 
         getResult(regex);
